@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+  min-height: 425px;
+  min-width: 275px;
+  height: 65%;
+  width: 22%;
+  background-color: lawngreen;
+  border: 1px solid gray;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.output-container {
+  height: 30%;
+  background-color: indianred;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.input {
+  height: 70%;
+  background-color: #222;
+}
