@@ -1,7 +1,7 @@
 import React from "react";
 import "./Output.css";
-function Output() {
-  return <input className="output" />;
+function Output(props) {
+  return <input className="output" defaultValue={props.value} />;
 }
 
 export default Output;
