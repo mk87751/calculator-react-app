@@ -44,6 +44,8 @@ function Caluclator() {
         default:
           break;
       }
+      operand = "";
+      second = "";
     }
     operand = event.target.value;
     console.log("first:", first, "operand:", operand, "second:", second);
