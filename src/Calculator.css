@@ -10,11 +10,13 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  -webkit-box-shadow: 0px 0px 13px 6px #292635;
+  box-shadow: 0px 0px 13px 6px #2f2d38;
 }
 
 .output-container {
   height: 30%;
-  background-color: indianred;
+  background-color: rgb(230, 237, 243);
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -22,5 +24,5 @@
 
 .input {
   height: 70%;
-  background-color: #222;
+  background-color: rgb(29, 50, 77);
 }

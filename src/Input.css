@@ -9,7 +9,8 @@
   cursor: pointer;
 }
 .button:hover {
-  background-color: lawngreen;
+  background-color: rgb(74, 87, 63);
+  color: white;
 }
 .button:focus {
   background-color: indigo;
